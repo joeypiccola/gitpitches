@@ -12,4 +12,4 @@ logo : assets/image/logo.png
 transition : none
 published : true
 footnote : "Puppet @ Work"
-code-line-numbers : true
+code-line-numbers : false
