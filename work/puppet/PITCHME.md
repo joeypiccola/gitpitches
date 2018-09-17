@@ -44,11 +44,18 @@ class { 'secure_channel':
 
 ## @color[#FE9F17](Puppet) features.
 
+@snap[west]
 @ul[](false)
-- Desired state.
-- Version control.
-- Auditable.
 - Reporting.
 - Taskable.
 - Package management.
 @ulend
+@snapend
+
+@snap[east]
+@ul[](false)
+- Desired state.
+- Version control.
+- Auditable.
+@ulend
+@snapend
