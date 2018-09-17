@@ -14,10 +14,20 @@
 
 ---
 
-## Is this a replacement for GPO?
+## Is @color[#FE9F17](Puppet) a replacement for @color[#4169E1](GPO)?
 
 @ol[]
 - No
 - Yes
 - Maybe
+- It depends
+@olend
+
+## Not about GPO vs Puppet.
+
+@ol[]
+- No
+- Yes
+- Maybe
+- It depends
 @olend
