@@ -92,10 +92,10 @@ Scope systems to a project or application.
 
 @ol[](false)
 - Ensure IIS is installed for the EWP project
-  + In v location named w
-  + With x App Pool
-  + with y MIME Types
-  + with z Bindings
+  + In @color[#Tomato](v) location named @color[#Orange](w)
+  + With @color[#SlateBlue](x) App Pool
+  + with @color[#MediumSeaGreen](y) MIME Types
+  + with @color[#Violet](z) Bindings
 @ol[]
 
 ---
