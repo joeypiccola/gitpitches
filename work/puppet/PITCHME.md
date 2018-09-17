@@ -42,7 +42,10 @@ class { 'secure_channel':
 
 ---
 
+@snap[north]
+<br>
 ## @color[#FE9F17](Puppet) features.
+@snapend
 
 @snap[west]
 @ul[](false)
