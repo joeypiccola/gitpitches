@@ -78,20 +78,24 @@ class role::jumphost {
 Think @color[#4169E1](GPO) WMI filtering and item level targeting on @color[#FF0000](steroids). Provides greater granularity and control.
 
 @ol[](false)
-- All jump hosts configured the same way.
-- All jump hosts in DEN3 configured the same way.
-- All jump hosts in DEN3 for team USB configured the same way.
+- All jump hosts.
+- All jump hosts in DEN3.
+- All jump hosts in DEN3 for team USB.
+- All jump hosts in DEN3 for team USB with
 @ol[]
 
 ---
 
 ### Classifications & Scoping Extended
 
-Think @color[#4169E1](GPO) WMI filtering and item level targeting on @color[#FF0000](steroids). Provides greater granularity and control.
+Scope systems to a project or application.
 
 @ol[](false)
-- Scope systems to a project or application.
--
+- Ensure IIS is installed for the EWP project
+  + In v location named w
+  + With x App Pool
+  + with y MIME Types
+  + with z Bindings
 @ol[]
 
 ---
