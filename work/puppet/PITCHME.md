@@ -12,6 +12,11 @@
 - Traditionally code based.
 @ulend
 
+
+---
+
+#### Example
+
 ```ruby
 class { 'secure_channel':
   sll_3_0_client => false,
@@ -42,25 +47,16 @@ class { 'secure_channel':
 
 ---
 
-@snap[west]
-@color[#FE9F17](Puppet)
-@ul[](false)
-- kms client setings.
-- wsus client settings.
-- security policy.
-- audit policy.
-- access control.
-- package management.
-@ulend
-@snapend
+### Classifications & Scoping
 
-@snap[east]
-@color[#4169E1](GPO)
-@ul[](false)
-- account policy.
-- pki enrollment settings.
-@ulend
-@snapend
+Think @color[#4169E1](GPO) WMI filtering and item level targeting on @color[#FF0000](steroids) with greater granularity and control.
+
+@ol[](false)
+All jump hosts configured the same way.
+ALl jump hosts in DEN3 configured the same way.
+All jump hosts in DEN3 for team USB configured the same way.
+ALl jump hosts in DEN3 for team USB in
+@ol[]
 
 ---
 
