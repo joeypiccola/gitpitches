@@ -4,7 +4,7 @@
 
 ---
 
-## What is declarative configuration management?
+#### What is declarative configuration management?
 
 @ul[](false)
 - Here is what I want, make it so.
