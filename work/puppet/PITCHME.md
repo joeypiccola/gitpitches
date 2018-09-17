@@ -1,5 +1,5 @@
 ## @color[#FE9F17](Puppet)
-### declarative & tasked based
+### declarative & task based
 ### configuration management
 
 ---
@@ -7,7 +7,7 @@
 #### What is declarative configuration management?
 
 @ul[](false)
-- This is what I want, make it so.
+- This is what I want, make it so!
 - If x changes to y, change it back to x.
 - Traditionally code based.
 @ulend
@@ -19,10 +19,18 @@
 
 ```ruby
 class { 'secure_channel':
-  sll_3_0_client => false,
-  sll_3_0_server => false,
+  ssl_3_0_client => false,
+  ssl_3_0_server => false,
+}
+
+class role::jumphost {
+  include profile::base
+  include profile::jumphost::jumphost_install
 }
 ```
+
+@[1-4](Manage Secure Channel settings.)
+@[6-9](Layered configurations.)
 
 ---
 
@@ -44,7 +52,6 @@ class { 'secure_channel':
 - Yes, there's overlap.
 @ulend
 
-
 ---
 
 ### Classifications & Scoping
@@ -52,9 +59,20 @@ class { 'secure_channel':
 Think @color[#4169E1](GPO) WMI filtering and item level targeting on @color[#FF0000](steroids). Provides greater granularity and control.
 
 @ol[](false)
-- @size[.7em](All jump hosts configured the same way.)
-- @size[.7em](All jump hosts in DEN3 configured the same way.)
-- @size[.7em](All jump hosts in DEN3 for team USB configured the same way.)
+- All jump hosts configured the same way.
+- All jump hosts in DEN3 configured the same way.
+- All jump hosts in DEN3 for team USB configured the same way.
+@ol[]
+
+---
+
+### Classifications & Scoping Extended
+
+Think @color[#4169E1](GPO) WMI filtering and item level targeting on @color[#FF0000](steroids). Provides greater granularity and control.
+
+@ol[](false)
+- Scope systems to a project or application.
+-
 @ol[]
 
 ---
