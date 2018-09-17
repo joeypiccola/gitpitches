@@ -37,13 +37,33 @@ class { 'secure_channel':
 @ul[](false)
 - The right tool for the right job.
 - Yes, there's overlap.
--
 @ulend
+
+
+---
+
+@snap[west]
+@color[#FE9F17](Puppet)
+@ul[](false)
+- 1.
+- 2.
+- 3.
+@ulend
+@snapend
+
+@snap[east]
+@color[#4169E1](GPO)
+@ul[](false)
+- a.
+- b.
+- c.
+@ulend
+@snapend
 
 ---
 
 @snap[north]
-## @color[#FE9F17](Puppet) features.
+@color[#FE9F17](Puppet) features.
 @snapend
 
 @snap[west]
