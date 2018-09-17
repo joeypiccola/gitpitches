@@ -75,13 +75,13 @@ class role::jumphost {
 
 ### Classifications & Scoping
 
-Think @color[#4169E1](GPO) WMI filtering and item level targeting on @color[#FF0000](steroids). Provides greater granularity and control.
+Think @color[#4169E1](GPO) WMI filtering and item level targeting on @color[Tomato](steroids). Provides greater granularity and control.
 
 @ol[](false)
-- All @color[Tomato](jump hosts).
-- All @color[Tomato](jump hosts) in @color[SlateBlue](DEN4).
-- All @color[Tomato](jump hosts) in @color[SlateBlue](DEN4) for @color[Orange](Team USB).
-- All @color[Tomato](jump hosts) in @color[SlateBlue](DEN4) for @color[Orange](Team USB) with @color[Violet](x package).
+- All @color[MediumSeaGreen](jump hosts).
+- All @color[MediumSeaGreen](jump hosts) in @color[SlateBlue](DEN4).
+- All @color[MediumSeaGreen](jump hosts) in @color[SlateBlue](DEN4) for @color[Orange](Team USB).
+- All @color[MediumSeaGreen](jump hosts) in @color[SlateBlue](DEN4) for @color[Orange](Team USB) with @color[Violet](x package).
 @ol[]
 
 ---
