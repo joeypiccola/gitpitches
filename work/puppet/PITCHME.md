@@ -45,18 +45,20 @@ class { 'secure_channel':
 @snap[west]
 @color[#FE9F17](Puppet)
 @ul[](false)
-- 1.
-- 2.
-- 3.
+- kms client setings.
+- wsus client settings.
+- security policy.
+- audit policy.
+- access control.
+- package management.
 @ulend
 @snapend
 
 @snap[east]
 @color[#4169E1](GPO)
 @ul[](false)
-- a.
-- b.
-- c.
+- account policy.
+- pki enrollment settings.
 @ulend
 @snapend
 
