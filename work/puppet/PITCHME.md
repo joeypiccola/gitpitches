@@ -44,7 +44,7 @@ class { 'secure_channel':
 
 ## @color[#FE9F17](Puppet) features.
 
-@snap[southwest]
+@snap[south-west]
 @ul[](false)
 - Reporting.
 - Taskable.
@@ -52,7 +52,7 @@ class { 'secure_channel':
 @ulend
 @snapend
 
-@snap[southeast]
+@snap[south-east]
 @ul[](false)
 - Desired state.
 - Version control.
