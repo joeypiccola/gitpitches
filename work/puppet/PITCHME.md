@@ -92,10 +92,10 @@ Scope systems to a project or application.
 
 @ol[](false)
 - Ensure IIS is installed for the @color[DodgerBlue](u) project
-  + In @color[Tomato](v) location named @color[Orange](w)
-  + With @color[SlateBlue](x) App Pool
-  + with @color[MediumSeaGreen](y) MIME Types
-  + with @color[Violet](z) Bindings
+- In @color[Tomato](v) location named @color[Orange](w)
+- With @color[SlateBlue](x) App Pool
+- With @color[MediumSeaGreen](y) MIME Types
+- With @color[Violet](z) Bindings
 @ol[]
 
 ---
