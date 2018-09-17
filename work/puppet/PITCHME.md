@@ -91,11 +91,11 @@ Think @color[#4169E1](GPO) WMI filtering and item level targeting on @color[#FF0
 Scope systems to a project or application.
 
 @ol[](false)
-- Ensure IIS is installed for the EWP project
-  + In @color[Tomato](v) location named @color[#Orange](w)
-  + With @color[#SlateBlue](x) App Pool
-  + with @color[#MediumSeaGreen](y) MIME Types
-  + with @color[#Violet](z) Bindings
+- Ensure IIS is installed for the @color[DodgerBlue](u) project
+  + In @color[Tomato](v) location named @color[Orange](w)
+  + With @color[SlateBlue](x) App Pool
+  + with @color[MediumSeaGreen](y) MIME Types
+  + with @color[Violet](z) Bindings
 @ol[]
 
 ---
