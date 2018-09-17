@@ -4,13 +4,20 @@
 
 ---
 
-## What is configuration management?
+## What is declarative configuration management?
 
 @ul[](false)
-- Reside in $module\Tasks
-- Task file (PowerShell, Ruby, Bash, etc)
-- Metadata .json file [optional]
+- Here is what I want, make it so.
+- If x changes to y, change it back to x.
+- Traditionally code based.
 @ulend
+
+```ruby
+class { 'secure_channel':
+  sll_3_0_client => false,
+  sll_3_0_server => false,
+}
+```
 
 ---
 
@@ -30,4 +37,15 @@
 @ul[](false)
 - The right tool for the right job.
 - Yes, there's overlap.
+- Everyone's job is different.
+@ulend
+
+## @color[#FE9F17](Puppet) features.
+
+@ul[](false)
+- Desired state.
+- Version control.
+- Auditable.
+- Reporting.
+- Task driven.
 @ulend
