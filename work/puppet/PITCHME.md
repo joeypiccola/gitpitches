@@ -8,7 +8,7 @@
 
 @ul[](false)
 - This is what I want, make it so!
-- If x changes to y, change it back to x.
+- If @color[Tomato](x) changes to @color[DodgerBlue](y), change it back to @color[Tomato](x).
 - Traditionally code based.
 - All about abstraction.
   + Don't care how, just do it!
@@ -78,10 +78,10 @@ class role::jumphost {
 Think @color[#4169E1](GPO) WMI filtering and item level targeting on @color[#FF0000](steroids). Provides greater granularity and control.
 
 @ol[](false)
-- All jump hosts.
-- All jump hosts in DEN3.
-- All jump hosts in DEN3 for team USB.
-- All jump hosts in DEN3 for team USB with
+- All @color[Tomato](jump hosts).
+- All @color[Tomato](jump hosts) in @color[SlateBlue](DEN4).
+- All @color[Tomato](jump hosts) in @color[SlateBlue](DEN4) for @color[Orange](Team USB).
+- All @color[Tomato](jump hosts) in @color[SlateBlue](DEN4) for @color[Orange](Team USB) with @color[Violet](x package).
 @ol[]
 
 ---
