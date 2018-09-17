@@ -52,10 +52,9 @@ class { 'secure_channel':
 Think @color[#4169E1](GPO) WMI filtering and item level targeting on @color[#FF0000](steroids). Provides greater granularity and control.
 
 @ol[](false)
-- All jump hosts configured the same way.
-- ALl jump hosts in DEN3 configured the same way.
-- All jump hosts in DEN3 for team USB configured the same way.
-- ALl jump hosts in DEN3 for team USB in
+- @size[.7em](All jump hosts configured the same way.)
+- @size[.7em](All jump hosts in DEN3 configured the same way.)
+- @size[.7em](All jump hosts in DEN3 for team USB configured the same way.)
 @ol[]
 
 ---
