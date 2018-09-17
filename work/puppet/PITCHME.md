@@ -7,7 +7,7 @@
 #### What is declarative configuration management?
 
 @ul[](false)
-- Here is what I want, make it so.
+- This is what I want, make it so.
 - If x changes to y, change it back to x.
 - Traditionally code based.
 @ulend
@@ -37,8 +37,10 @@ class { 'secure_channel':
 @ul[](false)
 - The right tool for the right job.
 - Yes, there's overlap.
-- Everyone's job is different.
+-
 @ulend
+
+---
 
 ## @color[#FE9F17](Puppet) features.
 
@@ -47,5 +49,6 @@ class { 'secure_channel':
 - Version control.
 - Auditable.
 - Reporting.
-- Task driven.
+- Taskable.
+- Package management.
 @ulend
