@@ -23,11 +23,11 @@
 - It depends
 @olend
 
-## Not about GPO vs Puppet.
+---
 
-@ol[]
-- No
-- Yes
-- Maybe
-- It depends
-@olend
+## Not about @color[#FE9F17](Puppet) vs @color[#4169E1](GPO).
+
+@ul[](false)
+- The right tool for the right job.
+- Yes, there's overlap.
+@ulend
