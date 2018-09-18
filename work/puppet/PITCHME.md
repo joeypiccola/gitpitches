@@ -19,16 +19,11 @@
 #### Abstraction
 
 @snap[west]
-![choco](assets/image/abstract.jpg)
+![full](assets/image/abstract.jpg)
 @snapend
 
 @snap[east]
-```ruby
-class { 'schannel':
-  ssl_3_0_client => false,
-  ssl_3_0_server => false,
-}
-```
+![abst](assets/image/sc.jpg)
 @snapend
 
 ---
