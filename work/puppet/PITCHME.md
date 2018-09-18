@@ -81,6 +81,8 @@ class role::jumphost {
 
 @[1-4](Settings)
 @[6-19](Profiles.)
+@[15](schannel.)
+@[6-19](Profiles.)
 @[21-24](Roles.)
 
 ---
