@@ -18,12 +18,12 @@
 
 ## Is @color[#FE9F17](Puppet) a replacement for @color[#4169E1](GPO)?
 
-@ol[]
+@ul[]
 - No
 - Yes
 - Maybe
 - It depends
-@olend
+@ulend
 
 ---
 
@@ -36,6 +36,7 @@
 @ulend
 
 ---
+
 @snap[north]
 Abstraction
 @snapend
