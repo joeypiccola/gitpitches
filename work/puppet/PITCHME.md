@@ -16,10 +16,10 @@
 
 ---
 
-# Abstraction
+#### Abstraction
 
 @snap[west]
-![choco](assets/image/abstrct.jpg)
+![choco](assets/image/abstract.jpg)
 @snapend
 
 @snap[east]
