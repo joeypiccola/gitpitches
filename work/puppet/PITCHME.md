@@ -15,8 +15,9 @@
 @ulend
 
 ---
-
-#### Abstraction
+@snap[north]
+Abstraction
+@snapend
 
 @snap[west]
 ![full](assets/image/abstract.jpg)
