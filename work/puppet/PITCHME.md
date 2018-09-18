@@ -139,5 +139,5 @@ Scope systems to a project or application.
 @ol[](false)
 - Upgrade PowerShell: 5.1.14409.20180811
 - Disable SMBv1
-- Find HotFix: B3110329
+- Find HotFix: KB3110329
 @ol[]
