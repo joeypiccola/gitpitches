@@ -26,19 +26,17 @@ class { 'schannel':
 
 class profile::base (
 ) {
-  include profile::base::chocolatey
-  include profile::base::schannel
+  include profile::base::dns
   include profile::base::firewall
   include profile::base::kms
   include profile::base::localaccounts
-  include profile::base::powershell
-  include profile::base::nameservers
-  include profile::base::timezone
-  include profile::base::wsus
-  include profile::base::uac
-  include profile::base::patch_reporting
   include profile::base::patch_install
-  include profile::puppet_agent
+  include profile::base::patch_reporting
+  include profile::base::powershell
+  include profile::base::schannel
+  include profile::base::timezone
+  include profile::base::uac
+  include profile::base::wsus
 }
 
 class role::jumphost {
@@ -48,8 +46,8 @@ class role::jumphost {
 ```
 
 @[1-4](Settings)
-@[6-21](Profiles.)
-@[23-26](Roles.)
+@[6-19](Profiles.)
+@[21-24](Roles.)
 
 ---
 
