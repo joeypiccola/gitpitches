@@ -8,10 +8,31 @@
 
 @ul[](false)
 - This is what I want, make it so!
-- Don't care how, just do it!
+- Don't care how, just do it.
 - All about abstraction.
 - Traditionally code based.
 - [optional] Easily enforceable. If @color[Tomato](x) changes to @color[DodgerBlue](y), change it back to @color[Tomato](x).
+@ulend
+
+---
+
+## Is @color[#FE9F17](Puppet) a replacement for @color[#4169E1](GPO)?
+
+@ol[]
+- No
+- Yes
+- Maybe
+- It depends
+@olend
+
+---
+
+## Not about @color[#FE9F17](Puppet) vs @color[#4169E1](GPO).
+
+@ul[](false)
+- The right tool for the right job.
+- Using both to manage the same config is like putting two raccoons in a bag.
+- Yes, there's overlap.
 @ulend
 
 ---
@@ -64,26 +85,6 @@ class role::jumphost {
 
 ---
 
-## Is @color[#FE9F17](Puppet) a replacement for @color[#4169E1](GPO)?
-
-@ol[]
-- No
-- Yes
-- Maybe
-- It depends
-@olend
-
----
-
-## Not about @color[#FE9F17](Puppet) vs @color[#4169E1](GPO).
-
-@ul[](false)
-- The right tool for the right job.
-- Yes, there's overlap.
-@ulend
-
----
-
 ### Classifications & Scoping
 
 Think @color[#4169E1](GPO) WMI filtering and item level targeting on @color[Tomato](steroids). Provides greater granularity and control.
@@ -129,3 +130,13 @@ Scope systems to a project or application.
 - Auditable.
 @ulend
 @snapend
+
+---
+
+### Tasks & Demo
+
+@ol[](false)
+Upgrade PowerShell: 5.1.14409.20180811
+Disable SMBv1
+Find HotFix: B3110329
+@ol[]
