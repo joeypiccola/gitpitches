@@ -28,6 +28,7 @@ class { 'schannel':
   ssl_3_0_client => false,
   ssl_3_0_server => false,
 }
+```
 @snapend
 
 ---
