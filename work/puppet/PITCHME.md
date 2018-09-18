@@ -16,6 +16,22 @@
 
 ---
 
+# Abstraction
+
+@snap[west]
+![choco](assets/image/abstrct.jpg)
+@snapend
+
+@snap[east]
+```ruby
+class { 'schannel':
+  ssl_3_0_client => false,
+  ssl_3_0_server => false,
+}
+@snapend
+
+---
+
 #### Examples / Layers
 
 ```ruby
