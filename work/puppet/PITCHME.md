@@ -82,7 +82,6 @@ class role::jumphost {
 @[1-4](Settings)
 @[6-19](Profiles.)
 @[15](schannel.)
-@[6-19](Profiles.)
 @[21-24](Roles.)
 
 ---
@@ -138,7 +137,7 @@ Scope systems to a project or application.
 ### Tasks & Demo
 
 @ol[](false)
-Upgrade PowerShell: 5.1.14409.20180811
-Disable SMBv1
-Find HotFix: B3110329
+- Upgrade PowerShell: 5.1.14409.20180811
+- Disable SMBv1
+- Find HotFix: B3110329
 @ol[]
