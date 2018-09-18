@@ -8,10 +8,10 @@
 
 @ul[](false)
 - This is what I want, make it so!
-- If @color[Tomato](x) changes to @color[DodgerBlue](y), change it back to @color[Tomato](x).
-- Traditionally code based.
+- Don't care how, just do it!
 - All about abstraction.
-  + Don't care how, just do it!
+- Traditionally code based.
+- [optional] Easily enforceable. If @color[Tomato](x) changes to @color[DodgerBlue](y), change it back to @color[Tomato](x).
 @ulend
 
 ---
@@ -19,7 +19,7 @@
 #### Examples / Layers
 
 ```ruby
-class { 'crypto':
+class { 'schannel':
   ssl_3_0_client => false,
   ssl_3_0_server => false,
 }
@@ -27,7 +27,7 @@ class { 'crypto':
 class profile::base (
 ) {
   include profile::base::chocolatey
-  include profile::base::crypto
+  include profile::base::schannel
   include profile::base::firewall
   include profile::base::kms
   include profile::base::localaccounts
@@ -81,7 +81,6 @@ Think @color[#4169E1](GPO) WMI filtering and item level targeting on @color[Toma
 - All @color[MediumSeaGreen](jump hosts).
 - All @color[MediumSeaGreen](jump hosts) in @color[SlateBlue](DEN4).
 - All @color[MediumSeaGreen](jump hosts) in @color[SlateBlue](DEN4) for @color[Orange](Team USB).
-- All @color[MediumSeaGreen](jump hosts) in @color[SlateBlue](DEN4) for @color[Orange](Team USB) with @color[Violet](x package).
 @ol[]
 
 ---
@@ -91,7 +90,7 @@ Think @color[#4169E1](GPO) WMI filtering and item level targeting on @color[Toma
 Scope systems to a project or application.
 
 @ol[](false)
-- Ensure IIS is installed for the @color[DodgerBlue](u) project
+- Ensure IIS is installed for @color[DodgerBlue](u) project
 - In @color[Tomato](v) location named @color[Orange](w)
 - With @color[SlateBlue](x) App Pool
 - With @color[MediumSeaGreen](y) MIME Types
